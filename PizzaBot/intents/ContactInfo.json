@@ -1,0 +1,78 @@
+{
+  "id": "4b13dcf6-8f01-4f71-bfed-3b0be3cb0763",
+  "parentId": "ec386c89-0e2f-4828-baa4-8ee4174078f6",
+  "rootParentId": "79e6a0c2-dac4-400e-9082-6dc6dd670520",
+  "name": "ContactInfo",
+  "auto": true,
+  "contexts": [
+    "OrderPizza-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizza.OrderPizza-yes.OrderPizza-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cd384155-41b6-48ad-b738-01c98848c044",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide a phone number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "387c6349-43fa-4c28-b86f-07ef80d6b8dc",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Awesome $given-name . Your pizza will be ready in 30 min."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

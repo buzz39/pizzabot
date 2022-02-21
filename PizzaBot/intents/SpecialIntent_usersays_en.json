@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cc0d3b8a-523c-4808-bb8b-37a3a43a5e25",
+    "data": [
+      {
+        "text": "what\u0027s your special",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca47fcd1-1475-43c3-8efe-77fe576cd538",
+    "data": [
+      {
+        "text": "deal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8264de45-5501-42f5-8c80-716cab9254a6",
+    "data": [
+      {
+        "text": "deal of the day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6cba65e3-bc1f-4f0e-990b-38e9ae5c0e86",
+    "data": [
+      {
+        "text": "are you running any deals",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cedc8198-dbf6-43fe-a5a0-f5e9678b1f2a",
+    "data": [
+      {
+        "text": "do you have any special",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

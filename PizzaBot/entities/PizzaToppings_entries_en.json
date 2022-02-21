@@ -1,0 +1,45 @@
+[
+  {
+    "value": "Cheese",
+    "synonyms": [
+      "Cheese"
+    ]
+  },
+  {
+    "value": "Onion",
+    "synonyms": [
+      "Onion"
+    ]
+  },
+  {
+    "value": "Sausage",
+    "synonyms": [
+      "Sausage"
+    ]
+  },
+  {
+    "value": "Chicken",
+    "synonyms": [
+      "Chicken"
+    ]
+  },
+  {
+    "value": "Mushroom",
+    "synonyms": [
+      "Mushroom"
+    ]
+  },
+  {
+    "value": "Pineapple",
+    "synonyms": [
+      "Pineapple"
+    ]
+  },
+  {
+    "value": "Black Olives",
+    "synonyms": [
+      "Black Olives",
+      "Olives"
+    ]
+  }
+]

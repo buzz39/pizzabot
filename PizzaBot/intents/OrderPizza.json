@@ -1,0 +1,106 @@
+{
+  "id": "79e6a0c2-dac4-400e-9082-6dc6dd670520",
+  "name": "OrderPizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "OrderPizza-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "880ca2d8-9bd9-44af-95fb-5fa53aeb6633",
+          "name": "PizzaSize",
+          "required": true,
+          "dataType": "@PizzaSize",
+          "value": "$PizzaSize",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size of pizza shall I order for you?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you please specify pizza size."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e1155203-d7b3-412b-8e5e-0369b0ff6483",
+          "name": "PizzaToppings",
+          "required": true,
+          "dataType": "@PizzaToppings",
+          "value": "$PizzaToppings",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Would you like to specify toppings"
+            },
+            {
+              "lang": "en",
+              "value": "What toppings will you prefer"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ce1d2679-1358-4ba6-8953-236e756cd034",
+          "name": "PizzaCrustStyle",
+          "required": true,
+          "dataType": "@PizzaCrustStyle",
+          "value": "$PizzaCrustStyle",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide crust, regular or thin?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You ordered $PizzaSize $PizzaCrustStyle crust with $PizzaToppings . Is that correct?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
